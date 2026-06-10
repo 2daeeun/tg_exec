@@ -31,4 +31,7 @@ sudo chmod +x /usr/local/bin/tg_exec
 
 이제 전역 명령어로 `tg_exec <명령어>` 를 실행할 수 있습니다.
 
-> 다운로드 후 스크립트 상단의 `TG_TOKEN`, `TG_CHAT_ID` 값을 본인 것으로 채워야 합니다.
+> 다운로드 후 스크립트 상단의 `TG_TOKEN`, `TG_CHAT_ID` 값을 본인 것으로 채워야 합니다.  
+  ```bash
+  sudo nvim /usr/local/bin/tg_exec
+  ```
